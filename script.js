@@ -1,5 +1,5 @@
 const canvas = document.createElement('canvas')
-canvas.height = 700
+canvas.height = 680
 canvas.width = 1400
 document.body.appendChild(canvas)
 const ctx = canvas.getContext('2d')
