@@ -1,6 +1,7 @@
 const canvas = document.createElement('canvas')
 canvas.height = 680
 canvas.width = 1400
+canvas.textContent = 'Your browser does not support canvas.'
 document.body.appendChild(canvas)
 const ctx = canvas.getContext('2d')
 
